@@ -1,12 +1,8 @@
-# Population Dashboard - Version 2
+# Biomass Dashboard - Version 2
 
-The purpose of this dashboard is to visualize livestock population data from: 
-* FAOSTAT 
-    * QCL/Stocks dataset
-    * GE - FAOTIER 1 dataset
-    * GE - UNFCCC dataset
-* WOAH
-* EuroStat 
+The purpose of this dashboard is to visualize livestock biomass data calculated by: 
+* WOAH 
+* GBADs
 
 ## Running the app
 
