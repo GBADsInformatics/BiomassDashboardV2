@@ -22,7 +22,11 @@ table = html.Div([
 
 content = dbc.Row(children=
             [
-            styling.sidebar,
-            dbc.Col(table)
-            ]
+            styling.sidebar_download,
+            dcc.Loading(id = 'loading-icon',
+                        children = [
+                            dbc.Col(table)
+                        ]
+                        )
+            ],style = styling.CONTENT_STYLE_TABLES
         )
