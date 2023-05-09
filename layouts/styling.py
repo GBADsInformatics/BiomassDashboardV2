@@ -56,7 +56,7 @@ sidebar_download = html.Div(
                 ['Species', 'Countries'], 'Species', inline=True, id='choice'
                 ),
                 html.H6(" "),
-                html.H6("Method:"),
+                html.H6("Method of Calculation:"),
                 dcc.Dropdown(id = 'dataset', value = 'GBADs', persistence_type='session', persistence=True),
                 html.H6(" "),
                 html.H6("Country:"),
@@ -89,7 +89,7 @@ sidebar = html.Div(
                 ['Species', 'Countries'], 'Species', inline=True, id='choice'
                 ),
                 html.H6(" "),
-                html.H6("Method:"),
+                html.H6("Method of Calculation:"),
                 dcc.Dropdown(id = 'dataset', value='GBADs', persistence_type='session', persistence=True),
                 html.H6(" "),
                 html.H6("Country:"),
@@ -121,7 +121,7 @@ sidebar_map = html.Div(
         dbc.Nav(
             [  
                 html.H6(" "),
-                html.H6("Method:"),
+                html.H6("Method of Calculation:"),
                 dcc.Dropdown(id = 'dataset', value = 'GBADs', persistence_type='session', persistence=True),
                 html.H6(" "),
                 html.H6("Country:"),
