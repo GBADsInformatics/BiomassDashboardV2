@@ -26,6 +26,12 @@ def create_bar_plot(df, country, species):
         
         ticklabelmode="period",
         dtick = 1)
+    
+    fig.update_yaxes(
+
+        title_text = 'biomass (kg)'
+
+    )
 
     return(fig)
 
@@ -45,6 +51,12 @@ def create_scatter_plot(df, country, species):
         
         ticklabelmode="period",
         dtick = 1)
+    
+    fig.update_yaxes(
+
+        title_text = 'biomass (kg)'
+
+    )
     
     return(fig)
 
