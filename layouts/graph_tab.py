@@ -19,7 +19,7 @@ def create_bar_plot(df, country, species):
         color_by = 'country'
         title = 'Biomass of %s' % species
 
-    fig = px.bar(df, x='year', y='biomass (kg)', color=color_by,
+    fig = px.bar(df, x='year', y='biomass', color=color_by,
                  color_discrete_sequence=px.colors.qualitative.Plotly, title = title)
 
     fig.update_xaxes(
@@ -38,7 +38,7 @@ def create_scatter_plot(df, country, species):
         color_by = 'country'
         title = 'Biomass of %s' % species
 
-    fig = px.line(df, x='year', y='biomass (kg)', color=color_by,
+    fig = px.line(df, x='year', y='biomass', color=color_by,
                  color_discrete_sequence=px.colors.qualitative.Plotly, markers=True, title = title)
 
     fig.update_xaxes(
