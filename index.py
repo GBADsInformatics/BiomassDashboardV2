@@ -14,7 +14,7 @@ from layouts import layout, data_tab, graph_tab, metadata_tab, map_tab
 
 ###--------------Read in data-----------------------------------
 
-faostat = pd.read_csv('data/biomass.csv')
+faostat = pd.read_csv('data/20230116_biomass_live_weight_fao.csv')
 woah = pd.read_csv('data/oie.csv')
 
 def get_df(choice): 
