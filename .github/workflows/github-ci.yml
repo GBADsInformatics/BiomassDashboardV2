@@ -9,11 +9,11 @@ jobs:
     uses: GBADsInformatics/DevopsWorkflows/.github/workflows/docker.yml@main
     secrets: inherit
     with:
-      IMAGE_NAME: biomassv2-dash
+      IMAGE_NAME: biomass-dash
 
   aws:
     needs: docker
     uses: GBADsInformatics/DevopsWorkflows/.github/workflows/aws.yml@main
     secrets: inherit
     with:
-      SERVICE_NAME: biomassv2-dash-service
+      SERVICE_NAME: Biomass-dash-service
