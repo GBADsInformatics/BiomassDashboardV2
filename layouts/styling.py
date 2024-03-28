@@ -27,6 +27,7 @@ CONTENT_STYLE_TABLES = {
 CONTENT_STYLE_GRAPHS = {
     "top":"8rem",
     "margin-left": "20rem",
+    "width": "50rem",
     "margin-right": "7rem",
     "bottom": "2rem",
     "padding": "5rem 2rem 2rem",
