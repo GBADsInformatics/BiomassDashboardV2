@@ -26,7 +26,7 @@ jobs:
     uses: GBADsInformatics/DevopsWorkflows/.github/workflows/aws.yml@v2.0
     secrets:
       template-input: >-
-        ApplicationName=	biomass-dash,
+        ApplicationName=biomass-dash,
         DockerURI=gbadsinformatics/biomass-dash:${{ needs.commit-hash.outputs.sha7 }},
         BaseURL=/dashboards/biomass,
         ListenerRulePriority=7,
@@ -38,3 +38,4 @@ jobs:
     with:
       stack-name: biomass-dash-stack
       stack-update-timeout: 8
+      AWS_REGION: ca-central-1
